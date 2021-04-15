@@ -1,0 +1,17 @@
+<a>
+    <img src="http://i621.photobucket.com/albums/tt296/viktorvnh/deskone_zpswpfj5mrc.jpg" usemap="#Map"/>
+<map name="Map" id="Map">
+  <area id="myarea" shape="rect" data-placement="right" coords="374,414,624,570" href="#" data-toggle="modal" data-toggle="tooltip" title="I don't remember painting that." data-target=".modal" />
+</map>
+</a>
+
+
+$('#myarea').tooltip();
+
+/* CSS used here will be applied after bootstrap.css */
+#myarea{
+  position:absolute;
+  left:374px;
+  width:250px;
+  top:414px;
+}
